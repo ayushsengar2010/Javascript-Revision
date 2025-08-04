@@ -26,5 +26,14 @@
         document.querySelector('.language').appendChild(li)
     }
     addOptionLanguage('Typescript')
+
+    // Edit
+
+    const secondLang = document.querySelector("li:nth-child(2)");
+     // secondLang.innerHTML = "Mojo"
+    const newli = document.createElement('li');
+    newli.textContent = "Mojo";
+    secondLang.replaceWith(newli);
+
 </script>
 </html>
