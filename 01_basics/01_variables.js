@@ -1,10 +1,10 @@
 const accountId = 144553
 let accountEmail = "hitesh@google.com"
 var accountPassword = "12345"
-accountCity = "Jaipur"
+accountCity = "Jaipur" // JavaScript will create a global variable
 let accountState;
 
-// accountId = 2 // not allowed
+// accountId = 2 // not allowed 
 
 
 accountEmail = "hc@hc.com"
